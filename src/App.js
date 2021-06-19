@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Products from "./components/Products"
+import Cart from './components/Cart';
+import store from './store';
+import { Provider } from 'react-redux';
+class App extends React.Component {
+  //provider is a component from react redux library which accepts a value store.
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="App">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-xl-8 col-md-12">
+                <Products />
+              </div>
+              <div className="col-xl-4 col-md-12">
+                <Cart />
+              </div>
+            </div>
+          </div>
+        </div>
+      </Provider>
+    )
+  }
 }
 
 export default App;

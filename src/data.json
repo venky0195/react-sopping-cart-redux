@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "_id": "image1",
+      "image": "/images/image1.jpg",
+      "title": "Bose QuietComfort 35",
+      "description": "Bose QuietComfort 35 II Wireless Bluetooth Headphones, Noise-Cancelling, with Alexa Voice Control - Black",
+      "category": "HeadPhones",
+      "before_discount": 40.0,
+      "availability": "In stock",
+      "price": 29.9
+    },
+    {
+      "_id": "image2",
+      "image": "/images/image2.jpg",
+      "title": "Sony ZX MDR-ZX110",
+      "description": "Sony ZX Series Wired On-Ear Headphones, Black MDR-ZX110",
+      "category": "HeadPhones",
+      "availability": "In stock",
+      "before_discount": 20.0,
+      "price": 18.9
+    },
+    {
+      "_id": "image3",
+      "image": "/images/image3.jpg",
+      "title": "SteelSeries Apex 7 Gaming Keyboard",
+      "description": "SteelSeries Apex 7 Mechanical Gaming Keyboard – OLED Smart Display – USB Passthrough and Media Controls – Tactile and Clicky – RGB Backlit (Blue Switch)",
+      "category": "KeyBoards",
+      "availability": "In stock",
+      "price": 14.9
+    },
+    {
+      "_id": "image4",
+      "image": "/images/image4.jpg",
+      "title": "60W (80W Peak) Portable Bluetooth Speaker",
+      "description": "60W (80W Peak) Portable Bluetooth Speaker with Double Subwoofer Heavy Bass, Bluetooth 5.0 Wireless 100ft Outdoor Speaker, Support FM Radio, LED Colorful Lights, Stereo Sound, for Home, Party, Travel",
+      "category": "Speakers",
+      "before_discount": 79.0,
+      "availability": "In stock",
+      "price": 59.9
+    },
+    {
+      "_id": "image5",
+      "image": "/images/image5.jpg",
+      "title": "SAMSUNG Galaxy S20 FE",
+      "description": "SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade Camera 30X Space Zoom Night Mode, Cloud Mint Green.",
+      "category": "Mobile",
+      "availability": "In stock",
+      "price": 690.9
+    },
+    {
+      "_id": "image6",
+      "image": "/images/image6.jpg",
+      "title": "MSI Prestige 14 EVO Professional Laptop",
+      "description": "MSI Prestige 14 EVO Professional Laptop: 14 FHD Ultra-Thin Bezel Display, Intel Core i5-1135G7, Intel Iris Xe, 16GB RAM, 512GB NVMe SSD, Thunderbolt 4, Win10 Home, Intel EVO, Carbon Gray (A11M-221)",
+      "category": "Laptop",
+      "availability": "In stock",
+      "price": 899
+    }
+  ]
+}
