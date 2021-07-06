@@ -12,6 +12,7 @@ export const addToCart = (product) => (dispatch, getState) => {
     if (!alreadyExists) {
         cartItems.push({ ...product, count: 1 });
     }
+    console.log("IN CART ACTIONS")
     dispatch({
         type: ADD_TO_CART,
         payload: { cartItems },
